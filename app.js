@@ -18,12 +18,23 @@
   const coursesRef = dbRef.child('CoursesData');
 
   let btnAddCourse = document.getElementById("btnAddCourse");
+  let tableBody = document.getElementById("tableBody");
 
   // retrieving data from firebase
   coursesRef.on('value', coursesData => {
     coursesData.forEach(snap => {
       let courseInfo = snap.val();
-        console.log(courseInfo);
+      let tableRow =  document.createElement("tr");
+      let td1 = document.createElement("td");
+      td1.innerHTML = courseInfo.courseName; 
+      let td2 = document.createElement("td");
+      td2.innerHTML = courseInfo.courseInstructor; 
+      let td3 = document.createElement("td");
+      td3.innerHTML = courseInfo.courseLink;
+      tableRow.appendChild(td1);
+      tableRow.appendChild(td2);
+      tableRow.appendChild(td3); 
+      tableBody.appendChild(tableRow);
       });
   })
 
