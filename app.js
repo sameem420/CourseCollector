@@ -19,6 +19,15 @@
 
   let btnAddCourse = document.getElementById("btnAddCourse");
 
+  // retrieving data from firebase
+  coursesRef.on('value', coursesData => {
+    coursesData.forEach(snap => {
+      let courseInfo = snap.val();
+        console.log(courseInfo);
+      });
+  })
+
+  // sending data to firebase
   function addCourse() {
     let cName = document.getElementById("courseName").value;
     let cInstructor = document.getElementById("courseInstructor").value;
