@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Collector</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--Import Google Icon Font-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+    <h1>Course Collector</h1>
+    <div class="container z-depth-2" id="mainwrapper">
+            <div class="row">
+                <div class="input-field col s6">
+                    <label for="courseName">Course Name :</label>
+                    <input type="text" id="courseName"/>
+                </div>
+                <div class="input-field col s6">
+                    <label for="courseInstructor">Course Instructor :</label>
+                    <input type="text" id="courseInstructor"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <label for="courseLink">Course Link :</label>
+                    <input type="text" id="courseLink"/>
+                </div>
+            </div>
+            <div class="row" id="btnDiv">
+                <button class="btn-large waves-effect waves-teal" id="btnAddCourse">Add Course</button>
+            </div>
+            <div class="row">
+                <table class="highlight centered">
+                    <thead>
+                      <tr>
+                          <th>Course Name</th>
+                          <th>Course Instructor</th>
+                          <th>Course Link</th>
+                      </tr>
+                    </thead>
+            
+                    <tbody>
+                      <tr>
+                        <td>Alvin</td>
+                        <td>Eclair</td>
+                        <td>$0.87</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+    <script src="./app.js"></script>
+</body>
+    
+</html>
