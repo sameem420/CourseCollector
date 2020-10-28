@@ -20,8 +20,8 @@ Simple JavaScript application to keep the record of online courses (Technical & 
 
 | DEMO LINKS |
 | ----------- |
-[GitHub DEMO](https://sameem420.github.io/JS-CourseCollector/)
-[Firebase DEMO](https://sameem420.github.io/JS-CourseCollector/)
+[GitHub DEMO](https://sameem420.github.io/CourseCollector/)
+[Firebase DEMO](https://course-collector.web.app/)
 
 
 <p align="center"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg"/></p>
