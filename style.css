@@ -4,21 +4,44 @@
     font-family: 'Exo 2', sans-serif;
 }
 body {
-    background-color: whitesmoke;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
 }
 h1 {
     font-family: 'Kaushan Script', sans-serif;
     text-align: center;
+    color: #fff;
 }
 #mainwrapper {
+    background-color: whitesmoke;
     width: 90%;
     margin: auto;
     border-radius: 5px;
     padding: 20px;
+    margin-bottom: 50px;
+    box-shadow:
+    /* The top layer shadow */
+    0 1px 1px rgba(0,0,0,0.15),
+    /* The second layer */
+    0 10px 0 -5px #eee,
+    /* The second layer shadow */
+    0 10px 1px -4px rgba(0,0,0,0.15),
+     /* The third layer */
+    0 20px 0 -10px #eee,
+    /* The third layer shadow */
+    0 20px 1px -9px rgba(0,0,0,0.15);
 }
 #btnAddCourse {
-    background-color: rgb(18, 90, 90);
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );  
     color: white;
+}
+.content {display:none;}
+.preload { 
+    width:50px;
+    height: 50px;
+    position: fixed;
+    top: 80%;
+    left: 50%;
+    
 }
 table {
     table-layout: fixed;

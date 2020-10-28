@@ -20,7 +20,13 @@
   let btnAddCourse = document.getElementById("btnAddCourse");
   let tableBody = document.getElementById("tableBody");
 
-  // retrieving data from firebase
+  $(function() {
+    $(".preload").fadeOut(1500, function() {
+        $(".content").fadeIn(500);        
+    });
+  });
+
+  window.onload = function() {
   coursesRef.on('value', coursesData => {
     coursesData.forEach(snap => {
       let courseInfo = snap.val();
@@ -37,6 +43,8 @@
       tableBody.appendChild(tableRow);
       });
   })
+  };
+  
 
   // sending data to firebase
   function addCourse() {
