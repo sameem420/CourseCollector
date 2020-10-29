@@ -17,7 +17,10 @@ Simple JavaScript application to keep the record of online courses (Technical & 
   - Course Instructor
   - Course Link
 
+<hr/>
+
 | [GitHub DEMO](https://sameem420.github.io/CourseCollector/) | [Firebase DEMO](https://course-collector.web.app/) |
 | :-------------: |:-------------:|
 
+<hr/>
 <p align="center"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg"/></p>
