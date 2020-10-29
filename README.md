@@ -1,4 +1,4 @@
-# JS-CourseCollector
+# JavaScriptApp-CourseCollector
 Simple JavaScript application to keep the record of online courses (Technical & Non-Technical)
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
@@ -17,11 +17,7 @@ Simple JavaScript application to keep the record of online courses (Technical & 
   - Course Instructor
   - Course Link
 
-
-| DEMO LINKS |
-| ----------- |
-[GitHub DEMO](https://sameem420.github.io/CourseCollector/)
-[Firebase DEMO](https://course-collector.web.app/)
-
+| [GitHub DEMO](https://sameem420.github.io/CourseCollector/) | [Firebase DEMO](https://course-collector.web.app/) |
+| :-------------: |:-------------:|
 
 <p align="center"><img src="http://ForTheBadge.com/images/badges/built-with-love.svg"/></p>
