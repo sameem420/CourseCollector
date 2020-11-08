@@ -64,6 +64,8 @@
         };
         coursesRef.push(courseData);
         M.toast({html: 'Course Saved!', classes: 'rounded'});
+        location.reload();
+        return false;
     }
   }
 
